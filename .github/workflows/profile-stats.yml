@@ -1,0 +1,37 @@
+name: Обновление статистики профиля
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Получить файлы
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Получить открытые показатели GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_stats.py
+      - name: Сохранить изменившиеся показатели
+        run: |
+          git add assets/github-activity.svg data/github-stats.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Обновить открытую статистику GitHub'
+          git push

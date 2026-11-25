@@ -1,0 +1,7 @@
+# Источники значков
+
+Значки Linux, NixOS, Ubuntu, Docker, Kubernetes, Git, GNU Bash, Prometheus, Grafana, Python и pytest взяты из Simple Icons: https://github.com/simple-icons/simple-icons (CC0-1.0). Названия и знаки продуктов принадлежат их владельцам.
+
+Обобщённые символы systemd, SSH, журналов, шифрования секретов и проверки подлинности запросов, композиция и петля DevOps нарисованы для этого профиля.
+
+Статистика в `github-activity.svg` формируется из открытого API и календаря GitHub, а не из образца оформления.
