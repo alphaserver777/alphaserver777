@@ -9,6 +9,8 @@ import json
 import os
 import re
 
+from ocean_theme import oceanize
+
 ROOT = Path(__file__).resolve().parents[1]
 USER = "alphaserver777"
 
@@ -118,7 +120,7 @@ def render(data):
     svg += '<path d="M38 321H1562" stroke="#303030"/>'
     svg += text(38, 356, "Источник: GitHub · Репозитории и календарь активности", 22)
     svg += text(1562, 356, "Обновлено " + end.strftime("%d.%m.%Y"), 22, extra='text-anchor="end"')
-    return svg + "</svg>"
+    return oceanize(svg + "</svg>")
 
 
 def main():

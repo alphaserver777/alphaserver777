@@ -1,5 +1,7 @@
+<h1 align="left">Профессор IT</h1>
+
 <p align="center">
-  <img src="assets/profile-cover.png?v=graphite-1" alt="Professor IT — Senior DevSecOps, кандидат технических наук. Разработка надёжных систем." width="100%">
+  <img src="assets/ship-header.webp" alt="Парусник в бирюзовом море" width="100%">
 </p>
 
 <p align="center">
@@ -15,12 +17,12 @@ Linux, воспроизводимые системы и события безо�
 ## Технологии в проектах
 
 <p>
-  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/skills-systems.svg?v=graphite-1" alt="Системы: Linux, NixOS, Ubuntu, systemd" width="49%"></a>
-  <a href="https://github.com/alphaserver777/hashgraph/tree/main/deploy"><img src="assets/skills-delivery.svg?v=graphite-1" alt="Автоматизация: Docker, Kubernetes, Git, Bash" width="49%"></a>
+  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/skills-systems.svg?v=ocean-1" alt="Системы: Linux, NixOS, Ubuntu, systemd" width="400"></a>
+  <a href="https://github.com/alphaserver777/hashgraph/tree/main/deploy"><img src="assets/skills-delivery.svg?v=ocean-1" alt="Автоматизация: Docker, Kubernetes, Git, Bash" width="400"></a>
 </p>
 <p>
-  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/skills-observability.svg?v=graphite-1" alt="Контроль состояния: Prometheus, Grafana, Loki, Python" width="49%"></a>
-  <a href="https://github.com/alphaserver777/hashgraph/tree/main/tests"><img src="assets/skills-security.svg?v=graphite-1" alt="Безопасность: sops-nix, SSH, HMAC, pytest" width="49%"></a>
+  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/skills-observability.svg?v=ocean-1" alt="Контроль состояния: Prometheus, Grafana, Loki, Python" width="400"></a>
+  <a href="https://github.com/alphaserver777/hashgraph/tree/main/tests"><img src="assets/skills-security.svg?v=ocean-1" alt="Безопасность: sops-nix, SSH, HMAC, pytest" width="400"></a>
 </p>
 
 <details>
@@ -39,12 +41,12 @@ Linux, воспроизводимые системы и события безо�
 ## Избранные проекты
 
 <p>
-  <a href="https://github.com/alphaserver777/hashgraph"><img src="assets/project-hashgraph.svg?v=graphite-1" alt="MDRJ-DAG — исследовательский прототип распределённого журнала событий безопасности. Python, SQLite, Docker." width="49%"></a>
-  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/project-nixos.svg?v=graphite-1" alt="NixOS — личная инфраструктура как код. Nix Flakes, Home Manager, sops-nix." width="49%"></a>
+  <a href="https://github.com/alphaserver777/hashgraph"><img src="assets/project-hashgraph.svg?v=ocean-1" alt="MDRJ-DAG — исследовательский прототип распределённого журнала событий безопасности. Python, SQLite, Docker." width="400"></a>
+  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/project-nixos.svg?v=ocean-1" alt="NixOS — личная инфраструктура как код. Nix Flakes, Home Manager, sops-nix." width="400"></a>
 </p>
 <p>
-  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/project-monitoring.svg?v=graphite-1" alt="Контроль сервисов — стенд сбора показателей и журналов. Prometheus, Grafana, Loki." width="49%"></a>
-  <a href="https://github.com/alphaserver777/Ubuntu/tree/main/security"><img src="assets/project-ssh.svg?v=graphite-1" alt="SSH-события — автоматизация уведомлений о доступе к Linux. Python, SSH, systemd." width="49%"></a>
+  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/project-monitoring.svg?v=ocean-1" alt="Контроль сервисов — стенд сбора показателей и журналов. Prometheus, Grafana, Loki." width="400"></a>
+  <a href="https://github.com/alphaserver777/Ubuntu/tree/main/security"><img src="assets/project-ssh.svg?v=ocean-1" alt="SSH-события — автоматизация уведомлений о доступе к Linux. Python, SSH, systemd." width="400"></a>
 </p>
 
 <details>
@@ -62,7 +64,7 @@ Linux, воспроизводимые системы и события безо�
 
 ## Активность на GitHub
 
-<a href="https://github.com/alphaserver777?tab=overview"><img src="assets/github-activity.svg?v=graphite-1" alt="Открытая статистика GitHub: число репозиториев, год регистрации и календарь активности за последние 365 дней. Дата обновления указана на карточке." width="100%"></a>
+<a href="https://github.com/alphaserver777?tab=overview"><img src="assets/github-activity.svg?v=ocean-1" alt="Открытая статистика GitHub: число репозиториев, год регистрации и календарь активности за последние 365 дней. Дата обновления указана на карточке." width="100%"></a>
 
 ## Передаю инженерный опыт
 
@@ -73,4 +75,12 @@ Linux, воспроизводимые системы и события безо�
 <p align="center">
   <strong>Обсудим инфраструктуру, безопасность или разработку надёжных систем.</strong><br><br>
   <a href="https://t.me/proffessor_it">Telegram ↗</a> &nbsp; · &nbsp; <a href="https://welcome.professorit.ru/">Professor IT ↗</a>
+</p>
+
+<p align="center">
+  <img src="assets/ocean-footer-cutout.webp" alt="Бирюзовые морские волны" width="100%">
+</p>
+
+<p align="center">
+  <strong>Ваш надёжный DevOps капитан в море ИИ разработки.</strong>
 </p>
