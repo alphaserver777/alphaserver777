@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <strong>Ваш надёжный DevOps капитан в море ИИ разработки.</strong>
+</p>
+
+<p align="center">
   <a href="https://t.me/proffessor_it"><strong>Связаться в Telegram ↗</strong></a> &nbsp; · &nbsp;
   <a href="https://welcome.professorit.ru/"><strong>Professor IT ↗</strong></a> &nbsp; · &nbsp;
   <a href="#избранные-проекты"><strong>Посмотреть проекты ↓</strong></a>
@@ -78,9 +82,5 @@ Linux, воспроизводимые системы и события безо�
 </p>
 
 <p align="center">
-  <img src="assets/ocean-footer-cutout.webp" alt="Бирюзовые морские волны" width="100%">
-</p>
-
-<p align="center">
-  <strong>Ваш надёжный DevOps капитан в море ИИ разработки.</strong>
+  <img src="assets/ocean-footer-trimmed.svg" alt="Бирюзовые морские волны" width="100%">
 </p>
