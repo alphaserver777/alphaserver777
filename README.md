@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-cover.png" alt="Professor IT — Senior DevSecOps, кандидат технических наук. Разработка надёжных систем." width="100%">
+  <img src="assets/profile-cover.png?v=graphite-1" alt="Professor IT — Senior DevSecOps, кандидат технических наук. Разработка надёжных систем." width="100%">
 </p>
 
 <p align="center">
@@ -15,12 +15,12 @@ Linux, воспроизводимые системы и события безо�
 ## Технологии в проектах
 
 <p>
-  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/skills-systems.svg" alt="Системы: Linux, NixOS, Ubuntu, systemd" width="49%"></a>
-  <a href="https://github.com/alphaserver777/hashgraph/tree/main/deploy"><img src="assets/skills-delivery.svg" alt="Автоматизация: Docker, Kubernetes, Git, Bash" width="49%"></a>
+  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/skills-systems.svg?v=graphite-1" alt="Системы: Linux, NixOS, Ubuntu, systemd" width="49%"></a>
+  <a href="https://github.com/alphaserver777/hashgraph/tree/main/deploy"><img src="assets/skills-delivery.svg?v=graphite-1" alt="Автоматизация: Docker, Kubernetes, Git, Bash" width="49%"></a>
 </p>
 <p>
-  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/skills-observability.svg" alt="Контроль состояния: Prometheus, Grafana, Loki, Python" width="49%"></a>
-  <a href="https://github.com/alphaserver777/hashgraph/tree/main/tests"><img src="assets/skills-security.svg" alt="Безопасность: sops-nix, SSH, HMAC, pytest" width="49%"></a>
+  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/skills-observability.svg?v=graphite-1" alt="Контроль состояния: Prometheus, Grafana, Loki, Python" width="49%"></a>
+  <a href="https://github.com/alphaserver777/hashgraph/tree/main/tests"><img src="assets/skills-security.svg?v=graphite-1" alt="Безопасность: sops-nix, SSH, HMAC, pytest" width="49%"></a>
 </p>
 
 <details>
@@ -39,12 +39,12 @@ Linux, воспроизводимые системы и события безо�
 ## Избранные проекты
 
 <p>
-  <a href="https://github.com/alphaserver777/hashgraph"><img src="assets/project-hashgraph.svg" alt="MDRJ-DAG — исследовательский прототип распределённого журнала событий безопасности. Python, SQLite, Docker." width="49%"></a>
-  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/project-nixos.svg" alt="NixOS — личная инфраструктура как код. Nix Flakes, Home Manager, sops-nix." width="49%"></a>
+  <a href="https://github.com/alphaserver777/hashgraph"><img src="assets/project-hashgraph.svg?v=graphite-1" alt="MDRJ-DAG — исследовательский прототип распределённого журнала событий безопасности. Python, SQLite, Docker." width="49%"></a>
+  <a href="https://github.com/alphaserver777/NixOS"><img src="assets/project-nixos.svg?v=graphite-1" alt="NixOS — личная инфраструктура как код. Nix Flakes, Home Manager, sops-nix." width="49%"></a>
 </p>
 <p>
-  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/project-monitoring.svg" alt="Контроль сервисов — стенд сбора показателей и журналов. Prometheus, Grafana, Loki." width="49%"></a>
-  <a href="https://github.com/alphaserver777/Ubuntu/tree/main/security"><img src="assets/project-ssh.svg" alt="SSH-события — автоматизация уведомлений о доступе к Linux. Python, SSH, systemd." width="49%"></a>
+  <a href="https://github.com/alphaserver777/Docker/tree/main/monitoring/grafana-deploy"><img src="assets/project-monitoring.svg?v=graphite-1" alt="Контроль сервисов — стенд сбора показателей и журналов. Prometheus, Grafana, Loki." width="49%"></a>
+  <a href="https://github.com/alphaserver777/Ubuntu/tree/main/security"><img src="assets/project-ssh.svg?v=graphite-1" alt="SSH-события — автоматизация уведомлений о доступе к Linux. Python, SSH, systemd." width="49%"></a>
 </p>
 
 <details>
@@ -62,7 +62,7 @@ Linux, воспроизводимые системы и события безо�
 
 ## Активность на GitHub
 
-<a href="https://github.com/alphaserver777?tab=overview"><img src="assets/github-activity.svg" alt="Открытая статистика GitHub: число репозиториев, год регистрации и календарь активности за последние 365 дней. Дата обновления указана на карточке." width="100%"></a>
+<a href="https://github.com/alphaserver777?tab=overview"><img src="assets/github-activity.svg?v=graphite-1" alt="Открытая статистика GitHub: число репозиториев, год регистрации и календарь активности за последние 365 дней. Дата обновления указана на карточке." width="100%"></a>
 
 ## Передаю инженерный опыт
 

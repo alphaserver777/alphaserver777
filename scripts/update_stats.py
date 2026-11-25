@@ -88,24 +88,24 @@ def collect(today):
 
 
 def render(data):
-    def text(x, y, value, size=20, color="#9BAAB8", weight=400, extra=""):
+    def text(x, y, value, size=20, color="#A1A1A1", weight=400, extra=""):
         return f'<text x="{x}" y="{y}" fill="{color}" font-family="Noto Sans,DejaVu Sans,Arial,sans-serif" font-size="{size}" font-weight="{weight}" {extra}>{html.escape(str(value))}</text>'
     first = date.fromisoformat(data["from"])
     end = date.fromisoformat(data["as_of"])
     svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380" fill="none">'
-    svg += '<title>Открытая активность GitHub за последние 365 дней</title><rect x=".5" y=".5" width="1599" height="379" rx="18" fill="#121820" stroke="#28333E"/>'
-    svg += text(38, 52, "@" + data["user"], 32, "#F0F4F8", 600)
+    svg += '<title>Открытая активность GitHub за последние 365 дней</title><rect x=".5" y=".5" width="1599" height="379" rx="18" fill="#141414" stroke="#303030"/>'
+    svg += text(38, 52, "@" + data["user"], 32, "#EDEDED", 600)
     svg += text(1562, 49, first.strftime("%d.%m.%Y") + " — " + end.strftime("%d.%m.%Y"), 24, extra='text-anchor="end"')
     stats = [("public_repositories", "открытых репозиториев"), ("original_repositories", "без ответвлений"), ("joined_year", "год регистрации")]
     for i, (key, label) in enumerate(stats):
         y = 114 + 78 * i
-        svg += text(38, y, data[key], 43, "#D9F99D", 600)
+        svg += text(38, y, data[key], 43, "#F4F4F5", 600)
         svg += text(158, y - 2, label, 23)
-    svg += '<path d="M475 86V298" stroke="#28333E"/>'
-    svg += text(518, 111, f'{data["contributions"]} действий за 365 дней', 32, "#F0F4F8", 600)
+    svg += '<path d="M475 86V298" stroke="#303030"/>'
+    svg += text(518, 111, f'{data["contributions"]} действий за 365 дней', 32, "#EDEDED", 600)
     svg += text(518, 145, 'Открытый календарь GitHub', 23)
     start = first - timedelta(days=(first.weekday() + 1) % 7)
-    colors = ["#202B32", "#354C39", "#65884D", "#A2C86C", "#D9F99D"]
+    colors = ["#242424", "#173C61", "#245D94", "#3387D4", "#52A8FF"]
     maximum = max(data["daily"].values(), default=0)
     for ds, count in data["daily"].items():
         day = date.fromisoformat(ds)
@@ -115,7 +115,7 @@ def render(data):
         x = 518 + column * 19
         y = 169 + row * 19
         svg += f'<rect x="{x}" y="{y}" width="14" height="14" rx="3" fill="{colors[level]}"><title>{ds}: {count}</title></rect>'
-    svg += '<path d="M38 321H1562" stroke="#28333E"/>'
+    svg += '<path d="M38 321H1562" stroke="#303030"/>'
     svg += text(38, 356, "Источник: GitHub · Репозитории и календарь активности", 22)
     svg += text(1562, 356, "Обновлено " + end.strftime("%d.%m.%Y"), 22, extra='text-anchor="end"')
     return svg + "</svg>"
