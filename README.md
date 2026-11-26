@@ -1,5 +1,3 @@
-<h1 align="left">Профессор IT</h1>
-
 <p align="center">
   <img src="assets/ship-header.webp" alt="Парусник в бирюзовом море" width="100%">
 </p>
